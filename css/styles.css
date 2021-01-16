@@ -1,0 +1,67 @@
+body{
+  padding: 0px;
+  display:grid;
+  place-items:center;
+
+}
+
+#title{
+  text-align: center;
+  font-family: Arial;
+  text-shadow: 2px 3px 1px white;
+  font-weight: bolder;
+  
+}
+
+#littleFooter{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+}
+
+input[type='range']{
+  -webkit-appearance: none;
+  height: 10px;
+  width: 100%;
+  border-radius: 100px;
+  outline:none;
+
+}
+
+input[name='inputA']::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  height:25px;
+  width: 25px;
+  background:red;
+  border-radius: 50%;
+  cursor: pointer;
+
+}
+input[name='inputB']::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  height:25px;
+  width: 25px;
+  background:green;
+  border-radius: 50%;
+  cursor: pointer;
+
+}
+input[name='inputC']::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  height:25px;
+  width: 25px;
+  background:blue;
+  border-radius: 50%;
+  cursor: pointer;
+
+}
+
+
+#inputA{
+  background: linear-gradient(90deg,#fff,red);
+}
+#inputB{
+  background: linear-gradient(90deg,#fff,green);
+}
+#inputC{
+  background: linear-gradient(90deg,#fff,blue)
+}
