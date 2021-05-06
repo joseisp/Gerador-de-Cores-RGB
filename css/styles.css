@@ -2,7 +2,6 @@ body{
   padding: 0px;
   display:grid;
   place-items:center;
-
 }
 
 #title{
@@ -10,7 +9,7 @@ body{
   font-family: Arial;
   text-shadow: 2px 3px 1px white;
   font-weight: bolder;
-  
+
 }
 
 #littleFooter{
@@ -54,6 +53,7 @@ input[name='inputC']::-webkit-slider-thumb{
   cursor: pointer;
 
 }
+
 
 
 #inputA{

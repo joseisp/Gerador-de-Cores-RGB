@@ -30,7 +30,7 @@ function changeRange() {
   textB = document.querySelector('#Green');
   textC = document.querySelector('#Blue');
   deep = document.querySelector('#deep');
-
+  console.log(inputA)
   var mirror = document.querySelector('#mirror');
   var colors = 'rgb(' + inputA + ', ' + inputB + ',' + inputC + ')';
   var sroloc = 'rgb(' + inputC + ',' + inputA + ',' + inputB + ')';
